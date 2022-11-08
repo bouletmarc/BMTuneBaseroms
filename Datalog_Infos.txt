@@ -1,0 +1,205 @@
+#################################################################
+// OLD LONG DTL ARRAY
+DB  077h,0CDh,0CBh,0BFh,062h,01Eh,003h,0F9h ; 5127
+DB  0D2h,072h,072h,0D2h,077h,050h,0CBh,0B3h ; 512F
+DB  045h,098h,016h,052h,044h,098h,04Eh,050h ; 5137
+DB  025h,015h,044h,07Ah,092h,022h,045h,098h ; 513F
+DB  0ECh,051h,0CBh,0F0h,045h,07Ah,092h,0AAh ; 5147
+DB  0CBh,099h,045h,07Ah,0F2h,0CBh,094h,045h ; 514F
+DB  07Ah,0FAh,092h,0AAh,08Dh,045h,016h,09Ch ; 5157
+DB  0FFh,044h,098h,041h,050h,003h,0EEh,050h ; 515F
+DB  045h,07Ah,0F2h,08Dh,045h,016h,09Ch,0FFh ; 5167
+DB  044h,098h,036h,050h,003h,0EEh,050h,0A3h ; 516F
+DB  00Ch,0A3h,01Dh,031h,00Dh,045h,07Ah,07Ch ; 5177
+DB  0D2h,0FAh,003h,0EAh,050h ; 517F
+#################################################################
+// NEW SMALL DTL ARRAY
+DB  077h,0CDh,0CBh,0BFh,062h,01Eh,003h,0F9h ; 5127
+DB  0D2h,072h,072h,0D2h,077h,050h,0CBh,0B3h ; 512F
+DB  045h,098h,016h,052h,044h,098h,04Eh,050h ; 5137
+DB  025h,015h,044h,07Ah,092h,022h
+DB  045h,07Ah,0F2h,0CBh,094h,045h ; 514F
+DB  07Ah,0FAh,092h,0AAh,08Dh,045h,016h,09Ch ; 5157
+DB  0FFh,044h,098h,041h,050h,003h,0EEh,050h ; 515F
+DB  045h,07Ah,0F2h,08Dh,045h,016h,09Ch,0FFh ; 5167
+DB  044h,098h,036h,050h,003h,0EEh,050h,0A3h ; 516F
+DB  00Ch,0A3h,01Dh,031h,00Dh,045h,07Ah,07Ch ; 5177
+DB  0D2h,0FAh,003h,0EAh,050h ; 517F
+
+We Remove 12 bytes
+
+#################################################################
+#################################################################
+#################################################################
+#################################################################
+// OLD LONG DTL ARRAY
+DB  078h,00Ah,00Bh,0A3h,02Ch,0CDh,003h,04Ch ; 5189
+DB  0CBh,00Ah,00Ch,0A3h,02Dh,0CAh,004h,00Dh ; 5191
+DB  04Eh,0CBh,001h,04Dh,0CEh,001h,001h,065h ; 5199
+DB  0CBh,0E1h,077h,0DDh,003h,0EAh,050h,## 511e ##084h ; 51A1
+DB  051h,027h,051h,037h,051h,045h,051h,084h ; 51A9
+DB  051h,02Bh,051h,04Bh,051h,051h,051h,056h ; 51B1
+DB  051h,067h,051h,076h,051h,0A3h,051h,0A3h ; 51B9
+DB  051h,0A3h,051h,0A3h,051h,0A3h,051h,0CEh ; 51C1
+DB  051h,0ECh,051h,014h,052h,## 5144 ##0D9h,000h,0CCh ; 51C9
+DB  003h,0CAh,003h,0BBh,000h,0A4h,003h,0CCh ; 51D1
+DB  000h,0E7h,001h,0E8h,001h,0DFh,001h,0C4h ; 51D9
+DB  080h,09Eh,081h,05Bh,003h,0B1h,003h,009h ; 51E1
+DB  004h,000h,000h,## 5162 ##0D9h,000h,0CCh,003h,0CAh ; 51E9
+DB  003h,0BBh,000h,0A4h,003h,0CCh,000h,0C4h ; 51F1
+DB  080h,0C6h,080h,0C8h,080h,0CDh,000h,0E7h ; 51F9
+DB  001h,0E8h,001h,0DFh,001h,09Eh,081h,05Bh ; 5201
+DB  003h,0D2h,003h,01Ch,004h,067h,000h,0D5h ; 5209
+DB  003h,000h,000h,## 518C ##000h,000h,0D9h,000h,0CCh ; 5211
+DB  003h,0CAh,003h,0BCh,000h,0BBh,000h,0A4h ; 5219
+DB  003h,0C4h,080h,0B1h,003h,0E7h,001h,0E8h ; 5221
+DB  001h,0DFh,001h,01Ah,001h,01Bh,001h,01Ch ; 5229
+DB  001h,01Dh,001h,0CCh,000h,09Eh,081h,05Bh ; 5231
+DB  003h,046h,002h,0B0h,003h,0B2h,003h,0B3h ; 5239
+DB  003h,0D2h,003h,0D1h,003h,068h,001h,058h ; 5241
+DB  081h,004h,083h,05Ch,081h,062h,001h,012h ; 5249
+DB  004h,052h,002h,053h,002h,03Bh,002h,008h ; 5251
+DB  004h,009h,004h,01Bh,004h,01Ch,004h,01Ah ; 5259
+DB  004h,010h,004h,067h,000h,0D5h,003h,0EAh ; 5261
+DB  001h,0ECh,001h,0E2h,001h,082h,083h,000h ; 5269
+DB  000h ; 5271
+#################################################################
+// NEW SMALL DTL ARRAY
+DB  078h,00Ah,00Bh,0A3h,02Ch,0CDh,003h,04Ch ; 5189
+DB  0CBh,00Ah,00Ch,0A3h,02Dh,0CAh,004h,00Dh ; 5191
+DB  04Eh,0CBh,001h,04Dh,0CEh,001h,001h,065h ; 5199
+DB  0CBh,0E1h,077h,0DDh,003h,0EAh,050h,## 511e ##084h ; 51A1
+DB  051h,027h,051h,037h,051h,084h ; 51A9
+DB  051h,02Bh,051h,051h,051h,056h ; 51B1
+DB  051h,067h,051h,076h,051h,0A3h,051h,0A3h ; 51B9
+DB  051h,0A3h,051h,0A3h,051h,0A3h,051h,014h
+DB  052h,## 518C ##000h,000h,0D9h,000h,0CCh ; 5211
+DB  003h,0CAh,003h,0BCh,000h,0BBh,000h,0A4h ; 5219
+DB  003h,0C4h,080h,0B1h,003h,0E7h,001h,0E8h ; 5221
+DB  001h,0DFh,001h,01Ah,001h,01Bh,001h,01Ch ; 5229
+DB  001h,01Dh,001h,0CCh,000h,09Eh,081h,05Bh ; 5231
+DB  003h,046h,002h,0B0h,003h,0B2h,003h,0B3h ; 5239
+DB  003h,0D2h,003h,0D1h,003h,068h,001h,058h ; 5241
+DB  081h,004h,083h,05Ch,081h,062h,001h,012h ; 5249
+DB  004h,052h,002h,053h,002h,03Bh,002h,008h ; 5251
+DB  004h,009h,004h,01Bh,004h,01Ch,004h,01Ah ; 5259
+DB  004h,010h,004h,067h,000h,0D5h,003h,0EAh ; 5261
+DB  001h,0ECh,001h,0E2h,001h,082h,083h,000h ; 5269
+DB  000h ; 5271
+#################################################################
+#################################################################
+
+We Remove 74 bytes
+We Remove 70 bytes (datalog array removed)
+
+
+LOCATION=0511eh
+0FAh,050h
+09Dh,050h
+0ADh,050h
+0BBh,050h	//### to remove ###
+0FAh,050h
+0A1h,050h
+0C1h,050h	//### to remove ###
+0C7h,050h	//
+0CCh,050h	//
+0DDh,050h	//
+0ECh,050h	//
+019h,051h
+019h,051h
+019h,051h
+019h,051h
+019h,051h
+044h,051h	//### to remove ###
+062h,051h	//### to remove ###
+08Ah,051h
+
+We Remove 8 bytes
+--------------
+LOCATION=05144h
+0D9h,000h	//ect
+0CCh,003h	//iat
+0CAh,003h	//ecu O2 volt
+0BBh,000h	//PA
+0A4h,003h	//Map sensor volt
+0CCh,000h	//TPS volt
+0E7h,001h	//Rows Related
+0E8h,001h	//Col/Rows Related
+0DFh,001h	//MIL Byte1
+0C4h,080h	//RPM1
+09Eh,081h	//MIL Byte2
+05Bh,003h	//MIL Byte3
+0B1h,003h	//Inputs Options1
+009h,004h	//Options Active1
+000h,000h
+--------------
+LOCATION=05162h
+0D9h,000h	//ect
+0CCh,003h	//iat
+0CAh,003h	//ecu O2 volt
+0BBh,000h	//PA
+0A4h,003h	//Map sensor volt
+0CCh,000h	//TPS volt
+0C4h,080h	//RPM1
+0C6h,080h	//### NOWHERE ### (RPM2 ??)
+0C8h,080h	//### NOWHERE ###
+0CDh,000h	//### NOWHERE ###
+0E7h,001h	//Columns Related
+0E8h,001h	//Rows Related
+0DFh,001h	//Col/Rows Related
+09Eh,081h	//Injector Value
+05Bh,003h	//Ignition Final
+0D2h,003h	//ELD Volt
+01Ch,004h	//MIL Byte3
+067h,000h	/EGR Volt
+0D5h,003h	//B6 Volt
+000h,000h
+000h,000h
+--------------
+LOCATION=0518Ch
+0D9h,000h	//ect						0		// 0D9h
+0CCh,003h	//iat						1		// 003CCh
+0CAh,003h	//ecu O2 volt				2		// 003CAh
+0BCh,000h	//PA						3		// 0BCh
+0BBh,000h	//Map sensor volt			4		// 0BBh
+0A4h,003h	//TPS volt					5		// 003A4h
+0C4h,080h	//RPM1						6,7		// 080C4h <-- long 0C4h
+0B1h,003h	//Inputs Options1			8		// 003B1h		(IgnitionCut = 03B1.2)(FuelCut = 03B1.4 || 03B1.5)
+0E7h,001h	//Columns Related			9		// 001E7h
+0E8h,001h	//Rows Related				10		// 001E8h
+0DFh,001h	//Col/Rows Related			11		// 001DFh
+01Ah,001h	//MIL Byte1					12		// 0011Ah
+01Bh,001h	//MIL Byte2					13		// 0011Bh
+01Ch,001h	//MIL Byte3					14		// 0011Ch
+01Dh,001h	//MIL Byte4					15		// 0011Dh
+0CCh,000h	//VSS						16		// 0CCh
+09Eh,081h	//Injector Value			17,18	// 0819Eh <-- long 019Eh
+05Bh,003h	//Ignition Final			19		// 0035Bh
+046h,002h	//Ignition Table			20		// 00246h
+0B0h,003h	//Inputs Options2			21		// 003B0h
+0B2h,003h	//Outputs Options1			22		// 003B2h
+0B3h,003h	//Outputs Options2			23		// 003B3h
+0D2h,003h	//ELD Volt					24		// 003D2h
+0D1h,003h	//Batt Volt					25		// 003D1h
+068h,001h	//ECT FC					26		// 00168h
+058h,081h	//O2 short					27,28	// 08158h <-- long 0158h
+004h,083h	//O2 long					29,30	// 08304h <-- long 0304h
+05Ch,081h	//IAT FC					31,32	// 0815Ch <-- long 015Ch
+062h,001h	//VE FC						33		// 00162h
+012h,004h	//ECT IC					34		// 00412h
+052h,002h	//IAT IC					35		// 00252h
+053h,002h	//Gear IC					36		// 00253h
+03Bh,002h	//Gear FC					37		// 0023Bh
+008h,004h	//Inputs Options3			38		// 00408h
+009h,004h	//Options Active1			39		// 00409h
+01Bh,004h	//ebc baseduty				40		// 0041Bh
+01Ch,004h	//ebc duty					41		// 0041Ch
+01Ah,004h	//ebc target				42		// 0041Ah	
+010h,004h	//Options Outputs Active1	43		// 00410h
+067h,000h	//EGR Volt					44		// 067h
+0D5h,003h	//B6 Volt					45		// 003D5h
+0EAh,001h	//Nothing1					46		// 001EAh
+0ECh,001h	//Nothing2					47		// 001ECh
+0E2h,001h	//Nothing3					48		// 001E2h
+082h,083h	//IACV Duty					49,50	// 08382h <-- long 0382h
+000h,000h
